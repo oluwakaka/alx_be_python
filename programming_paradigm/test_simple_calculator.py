@@ -29,7 +29,7 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.multiply(0, 100), 0)
         self.assertAlmostEqual(self.calc.multiply(2.5, 0.4), 1.0, places=7)
 
-    def test_divide(self):
+    def test_division(self):
         """Checks for test_divide (including divide-by-zero edge cases)."""
         self.assertEqual(self.calc.divide(6, 3), 2.0)
         self.assertEqual(self.calc.divide(7, 2), 3.5)
